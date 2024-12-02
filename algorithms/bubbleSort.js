@@ -38,3 +38,6 @@ const bubbleSort = array => {
 };
 
 export default bubbleSort;
+
+
+console.log( bubbleSort([6,6,7,8,9,1,3,5,6,7]))
