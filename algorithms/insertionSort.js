@@ -7,12 +7,11 @@
  * This makes it efficient for small or nearly sorted arrays but less efficient for large, random arrays.
  *
  * Time complexity: O(n^2) in the worst and average case, O(n) in the best case (when the array is already sorted).
- * Space complexity: O(1), as it is an in-place sorting algorithm.
  *
  * @param {Array} array - The array of numbers to be sorted.
  * @returns {Array} - The sorted array.
  */
-const insertionSort = array => {
+const insertionSort = (array) => {
   // Iterate through the array starting from the second element
   for (let i = 1; i < array.length; i++) {
     let current = array[i]; // Current element to be inserted
